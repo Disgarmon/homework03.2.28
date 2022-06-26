@@ -28,24 +28,22 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         redNumberLabel.text = String(format: "%.2f", redColorSlider.value)
-        
         greenNumberLabel.text = String(format: "%.2f", greenColorSlider.value)
-        
         blueNumberLabel.text = String(format: "%.2f", blueColorSlider.value)
-        
+        setupColorCheckView()
     }
 // MARK: - IB Actions
     @IBAction func redCollorDrug() {
         redNumberLabel.text = String(format: "%.2f", redColorSlider.value)
-        colorCheckView.layer.backgroundColor = CGColor(red: CGFloat(redColorSlider.value), green: CGFloat(greenColorSlider.value), blue: CGFloat(blueColorSlider.value), alpha: 1)
+        setupColorCheckView()
     }
     @IBAction func greenCollorDrug() {
         greenNumberLabel.text = String(format: "%.2f", greenColorSlider.value)
-        colorCheckView.layer.backgroundColor = CGColor(red: CGFloat(redColorSlider.value), green: CGFloat(greenColorSlider.value), blue: CGFloat(blueColorSlider.value), alpha: 1)
+        setupColorCheckView()
     }
     @IBAction func blueCollorDrug() {
         blueNumberLabel.text = String(format: "%.2f", blueColorSlider.value)
-        colorCheckView.layer.backgroundColor = CGColor(red: CGFloat(redColorSlider.value), green: CGFloat(greenColorSlider.value), blue: CGFloat(blueColorSlider.value), alpha: 1)
+        setupColorCheckView()
     }
     
     
@@ -53,6 +51,8 @@ class ViewController: UIViewController {
     
     
     // MARK: - Private metods
-    
+    private func setupColorCheckView(){
+        colorCheckView.layer.backgroundColor = CGColor(red: CGFloat(redColorSlider.value), green: CGFloat(greenColorSlider.value), blue: CGFloat(blueColorSlider.value), alpha: 1)
+    }
 }
 
