@@ -52,7 +52,12 @@ class ViewController: UIViewController {
     
     // MARK: - Private metods
     private func setupColorCheckView(){
-        colorCheckView.layer.backgroundColor = CGColor(red: CGFloat(redColorSlider.value), green: CGFloat(greenColorSlider.value), blue: CGFloat(blueColorSlider.value), alpha: 1)
+        colorCheckView.layer.backgroundColor = CGColor(
+            red: CGFloat(redColorSlider.value),
+            green: CGFloat(greenColorSlider.value),
+            blue: CGFloat(blueColorSlider.value),
+            alpha: 1
+        )
     }
 }
 
