@@ -38,13 +38,13 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0cF-gy-46D">
-                                                <rect key="frame" x="60.000000000000007" y="0.0" width="21.333333333333336" height="30"/>
+                                                <rect key="frame" x="60" y="0.0" width="1.3333333333333357" height="30"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" value="0.29999999999999999" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Woc-vU-OQs">
-                                                <rect key="frame" x="79.333333333333343" y="0.0" width="318.66666666666663" height="31"/>
+                                                <rect key="frame" x="59.333333333333343" y="0.0" width="338.66666666666663" height="31"/>
                                                 <connections>
                                                     <action selector="redCollorDrug" destination="BYZ-38-t0r" eventType="valueChanged" id="jNo-j7-nMO"/>
                                                 </connections>
@@ -64,13 +64,13 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lEE-HS-NUD">
-                                                <rect key="frame" x="60.000000000000007" y="0.0" width="21.333333333333336" height="30"/>
+                                                <rect key="frame" x="60" y="0.0" width="1.3333333333333357" height="30"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" value="0.20000000000000001" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="qc0-oa-pSN">
-                                                <rect key="frame" x="79.333333333333343" y="0.0" width="318.66666666666663" height="31"/>
+                                                <rect key="frame" x="59.333333333333343" y="0.0" width="338.66666666666663" height="31"/>
                                                 <connections>
                                                     <action selector="greenCollorDrug" destination="BYZ-38-t0r" eventType="valueChanged" id="1Jv-x2-Sgf"/>
                                                 </connections>
@@ -94,13 +94,13 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GMX-nW-f8e">
-                                                <rect key="frame" x="60.000000000000007" y="0.0" width="21.333333333333336" height="30"/>
+                                                <rect key="frame" x="60" y="0.0" width="1.3333333333333357" height="30"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" value="0.80000000000000004" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="KLp-SM-EdC">
-                                                <rect key="frame" x="79.333333333333343" y="0.0" width="318.66666666666663" height="31"/>
+                                                <rect key="frame" x="59.333333333333343" y="0.0" width="338.66666666666663" height="31"/>
                                                 <connections>
                                                     <action selector="blueCollorDrug" destination="BYZ-38-t0r" eventType="valueChanged" id="xVk-DZ-gec"/>
                                                 </connections>
